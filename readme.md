@@ -1,6 +1,6 @@
-#goflat
+# Goflat
 
-**goflat** is a small utility library for flattening nested integer arrays.
+**Goflat** is a small utility library for flattening nested integer arrays.
 
 ## Example
 
@@ -15,10 +15,9 @@
 ## Usage
 
 ```
-    input := []interface{}{0, []interface{}{2}, []interface{}{[]interface{}{5}, 0}}
-    output := goflat.Flatten(input)
+input := []interface{}{0, []interface{}{2}, []interface{}{[]interface{}{5}, 0}}
+output := goflat.Flatten(input)
     
-    // output [0, 2, 5, 0]
-    println(output)
+// output [0, 2, 5, 0]
+println(output)
 ```
-
